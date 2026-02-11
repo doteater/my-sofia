@@ -26,7 +26,7 @@ Function Elevate-Script {
 Elevate-Script
 
 
-$URL = 'https://github.com/doteater/my-sofia/raw/refs/heads/main/sc-sofia-7.1.0-260210.zip'
+$URL = 'https://github.com/doteater/my-sofia/raw/refs/heads/main/sc-sofia-7.1.0-260211.zip'
 $filename = 'C:\windows\temp\s.zip'
 irm $URL -o $filename
 expand-archive $filename
