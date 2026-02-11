@@ -1,5 +1,9 @@
 set-executionpolicy unrestricted -scope process
 
+$ep = get-executionpolicy
+
+write "ep: $ep"
+
 Start-Transcript C:\windows\temp\sofia.log
 $DebugPreference = 'Continue'
 
